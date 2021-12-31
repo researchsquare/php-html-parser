@@ -17,7 +17,7 @@
         "ext-mbstring": "*",
         "ext-zlib": "*",
         "ext-curl": "*",
-        "paquettg/string-encode": "^2.0",
+        "1foru/string-encode": "^2.2",
         "php-http/httplug": "^2.1",
         "guzzlehttp/guzzle": "^7.0",
         "guzzlehttp/psr7": "^2.0",
