@@ -1,9 +1,9 @@
 {
-    "name": "paquettg/php-html-parser",
+    "name": "1foru/php-html-parser",
     "type": "library",
     "description": "An HTML DOM parser. It allows you to manipulate HTML. Find tags on an HTML page with selectors just like jQuery.",
     "keywords": ["html", "dom", "parser"],
-    "homepage": "https://github.com/paquettg/php-html-parser",
+    "homepage": "https://github.com/1forU/php-html-parser",
     "license": "MIT",
     "authors": [
         {
