@@ -15,7 +15,7 @@ Install the latest version using composer.
 ```bash
 $ composer require 1foru/php-html-parser
 ```
-Since original creator seem abadoned this project, I can not install on my project, so I created fork and publish as new package to allow me to install on my project.
+Since the original creator seemed to have abandoned this project and I can not install it on my project, so I created a fork and published it as a new package to allow me to install it on my project.
 
 Basic Usage
 -----
