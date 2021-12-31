@@ -13,10 +13,9 @@ Install
 Install the latest version using composer.
 
 ```bash
-$ composer require paquettg/php-html-parser
+$ composer require 1foru/php-html-parser
 ```
-
-This package can be found on [packagist](https://packagist.org/packages/paquettg/php-html-parser) and is best loaded using [composer](http://getcomposer.org/). We support php 7.2, 7.3, and 7.4.
+Since original creator seem abadoned this project, I can not install on my project, so I created fork and publish as new package to allow me to install on my project.
 
 Basic Usage
 -----
