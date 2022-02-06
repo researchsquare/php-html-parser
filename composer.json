@@ -34,5 +34,11 @@
         "psr-4": {
         	"PHPHtmlParser\\": "src/PHPHtmlParser"
        	}
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:researchsquare/string-encoder.git"
+        }
+    ]
 }
