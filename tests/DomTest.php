@@ -25,6 +25,18 @@ class DomTest extends TestCase
         $this->assertSame($html, $dom->root->outerHtml());
     }
 
+    /**
+     * scripts should be parsable when removeScripts is set to false
+     */
+    public function testParsingScripts()
+    {
+        $html = "<script type=\"math/tex; mode=inline\">(d=0.5, p<1)</script>";
+        $dom = new Dom();
+        $dom->setOptions((new Options())->setRemoveScripts(false));
+        $dom->loadStr($html);
+        $this->assertSame($html, $dom->root->outerHtml());
+    }
+
     public function testLoadSelfclosingAttr()
     {
         $dom = new Dom();
